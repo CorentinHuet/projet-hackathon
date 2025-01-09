@@ -20,15 +20,16 @@
     <header>
         <nav class="sticky top-0 w-full mt-0 bg-white shadow-sm">
             <div class="container flex flex-wrap items-center justify-between mx-auto">
-                <div class="no-underline opacity-100 hover:text-white hover:no-underline">
+                <div class="pl-16 no-underline opacity-100 hover:text-white hover:no-underline">
                     <span class="pl-2 text-2xl text-blue">
                         <img src="/img/logo.png" class="inline w-48" alt="Nouveaux propriétaires">
                     </span>
                 </div>
 
-                <div class="block text-lg">
+                <div class="pr-16 block text-lg">
                     <a href="{{ route("home") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Accueil</a>
-                    <a href="{{ route("map") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Cartes</a>
+                    <a href="{{ route("map") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Carte</a>
+                    <a href="{{ route("department") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Départements</a>           
                 </div>
             </div>
         </nav>
