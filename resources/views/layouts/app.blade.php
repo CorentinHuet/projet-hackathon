@@ -28,8 +28,7 @@
 
                 <div class="pr-16 block text-lg">
                     <a href="{{ route("home") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Accueil</a>
-                    <a href="{{ route("map") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Carte</a>
-                    <a href="{{ route("department") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Départements</a>           
+                    <a href="{{ route("map") }}" class="block mt-4 font-light hover:text-secondary text-slim text-primary hover:text-black hover:no-underline md:inline-block md:mt-0 md:ml-6">Carte</a>         
                 </div>
             </div>
         </nav>
